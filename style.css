@@ -28,6 +28,7 @@ body{
   width: 220px;
   text-emphasis: 5px;
   text-align: right;
+  verticle-align: text-top;
   
 }
 
