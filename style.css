@@ -15,9 +15,7 @@ img{
 }
 
 body{
-  margin-top: 0px;
-  margin-left:0px;
-  margin-right:0px;
+  margin: 0px;
   margin-bottom: 30px;
   padding: 0px;
   border: 0px;
@@ -31,12 +29,11 @@ body{
   background-color: #EBC6C1;
   align-content: center;
   margin: 0 auto;
-  padding-top: 7px;
-  padding-bottom: 5px;
   border:1px solid #;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, .2), -4px -4px 10px rgba(0, 0, 0, .2);
   
 }
+
 
 #rt{
   background-color: #CC444B;
