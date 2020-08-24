@@ -2,6 +2,7 @@
   background-color: #CC444B;
   width: 100%;
   height:20%;
+  margin: 0px auto;
   text-align: center;
   color: white;
    box-shadow: 0px 4px 6px rgba(0, 0, 0, .2);
@@ -14,15 +15,17 @@ img{
 }
 
 body{
-   margin: 0px;
+  margin: 0px;
+  margin-bottom: 30px;
   padding: 0px;
   border: 0px;
   outline: 0px;
+
   background-color: #f7e8e3;
 }
 
 #resume-table{
-  width: 65%;
+  width: 50%;
   background-color: #EBC6C1;
   align-content: center;
   margin: 0 auto;
@@ -34,10 +37,10 @@ body{
 #rt{
   background-color: #CC444B;
   color: whitesmoke;
-  width: 220px;
+  width: 180px;
   text-emphasis: 5px;
   text-align: right;
-  verticle-align: text-top;
+  vertical-align: text-top;
   padding-right: 20px;
   font-size: 25px;
   
@@ -45,9 +48,17 @@ body{
 
 table{
   border-collapse: collapse;
-  border-block-color: black;
+}
+
+li{
+  list-style: circle;
+}
+
+#slant{
+  font-style: italic;
   
 }
+
 
 li{
   list-style: circle;
