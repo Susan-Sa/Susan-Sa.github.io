@@ -3,13 +3,13 @@
 
 
     //Full window for hero section -> put overlay on hidden
-    Webflow.push(function () {
-        var fulls = $('.full-page');
-        var win = $(window);
-        Webflow.resize.on(function () {
-          fulls.height(win.height());
-        });
-      });
+    // Webflow.push(function () {
+    //     var fulls = $('.full-page');
+    //     var win = $(window);
+    //     Webflow.resize.on(function () {
+    //       fulls.height(win.height());
+    //     });
+    //   });
 
     // Sticky Menu
     $(window).scroll(function () {
@@ -24,12 +24,6 @@
     $('[data-background]').each(function () {
         $(this).css({
             'background-image': 'url(' + $(this).data('background') + ')'
-        });
-    });
-
-    $('[data-background-images]').each(function () {
-        $(this).css({
-            'background-image': $(this).data('background') 
         });
     });
 
